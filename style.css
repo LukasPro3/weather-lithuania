@@ -1,0 +1,181 @@
+a {
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus{
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.active {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+}
+
+body{
+  background-color: #F4F6F7;
+}
+
+#wrapper {
+  background-color: #28688C;
+  box-shadow: 1px 5px 25px 3px #444;
+  border-radius: 10px;
+  margin: 100px auto;
+  max-width: 720px;
+  padding: 0px;
+  color: white;  
+}
+
+#current-weather{
+  padding: 15px;
+}
+
+#mainTemperature{
+  font-size: 5.5em; 
+  line-height: 0.7;
+}
+
+#tempDescription {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.day-weather-box {
+  border: 1px solid #28688C;
+  background-color: #2E7FA1;
+  border-radius: 5px;
+  height: 5em;
+}
+
+.day-weather-box p{
+  margin-bottom: 0;
+}
+
+.side-weather-info {
+  padding: 0px 10px;
+}
+
+.day-weather-inner-box {
+  display: inline-flex;
+  margin: 14px auto;
+  padding: 0px 5px;
+}
+
+.forecast-main {
+  padding: 0px 0px 0px 30px;
+}
+
+.forecast-icon {
+  padding: 10px 10px 10px;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+input{
+  border-color: #00B4CC;
+  border-width: 3px;
+}
+.search {
+  width: 100%;
+  text-align:center;
+ } 
+
+.searchTerm {
+  width: 100%;
+  padding: 5px;
+  height: 36px;
+  
+
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 100%;
+}
+.nav {
+  margin:0;
+  display: block;
+  text-align: center;
+}
+
+.ac_results {
+  width: 214px !important;
+  position: relative;
+  padding: 0px;
+	border: 3px solid  #00B4CC;
+	background-color: #ffffff;
+	overflow: hidden;
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	color: rgb(0, 0, 0);
+	font-family:verdana;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font-size: 12px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+
+}
+
+.ac_loading {
+	background: white url('../images/indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.ac_over {
+	background-color: #e1e1e1;
+	color: #000000;
+}
+
+nav {
+  width: 100%;
+  background-color: #484848;
+}
